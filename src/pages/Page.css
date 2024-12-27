@@ -1,0 +1,25 @@
+.container{
+    height:300vh;
+    background-color: beige;
+    border:1px solid black;
+    margin:15px;
+}
+.textfield{
+    margin:15px;
+    
+}
+.Table{
+    /* display: flex;
+    justify-content: center;
+   
+   
+    width:500px; */
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Add this if you want vertical centering too */
+  width: 100%; /* Ensure the container spans the full parent width */
+  height: auto; /* Or specify a height if required */
+  padding: 15px;
+   
+}
