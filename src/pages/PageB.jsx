@@ -45,6 +45,7 @@ const columns=[
  
 ];
  const paginationModel={page:0,pageSize:5};
+
  
 
 
@@ -62,7 +63,7 @@ const PageB=()=>{
     setPage(0);
   };
 
-  return(
+ 5563e7388070cdfd2659bdf261fd2d4410109496  return(
     <div>
       {/* Table1 */}
         <TableContainer component={Paper}>
@@ -117,6 +118,7 @@ const PageB=()=>{
       />
         
       {/* Table2 */}
+      
 
         <Paper sx={{height:400,width:'100%'}}>
           <DataGrid 
@@ -203,6 +205,8 @@ const PageB=()=>{
         }}></Divider>
          
 {/* Table4 */}
+         
+
         <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650, border: "2px solid black" }}>
           <TableHead>
